@@ -1,0 +1,23 @@
+
+
+=== PART 1: CHAMA ===
+Chama deployed at 0x5fbdb2315678afecb367f032d93f642f64180aa3 by treasurer 0xf39f...2266
+Alice savings: 1.5 ETH
+Bob savings: 0.5 ETH
+Total savings: 2 ETH
+Contract ETH : 2 ETH
+Overdraw blocked -> InsufficientBalance(100000000000000000000, 1500000000000000000)
+
+Chama event log:
+  block 2 Deposited: member=0x7099...79C8, amount=2 ETH
+  block 3 Deposited: member=0x3C44...93BC, amount=1 ETH
+  block 4 Transferred: from=0x7099...79C8, to=0x3C44...93BC, amount=0.5 ETH
+  block 5 Withdrawn: member=0x3C44...93BC, amount=1 ETH
+
+=== PART 2: HONEYTRACE ===
+Unapproved handler blocked -> NotHandler(0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC)
+
+Batch #1 audit trail (rebuilt from events):
+  block 8: Harvested by 0xf39F...2266
+  block 9: Processed by 0x7099...79C8
+  block 10: Packaged by 0xf39F...2266
